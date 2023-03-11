@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class HW3 {
     public static void main(String[] args) {
 
-        //Task 1 тк условия взаимосключащие, то элегантнее с if else
+        //Task 1 тк условия взаимосключащие, то элегантнее с else if
         int a = 3;
         int b = 5;
         if (a == b) {
@@ -25,8 +25,7 @@ public class HW3 {
         else {
             System.out.println("some variable is odd");
         }
-//Task 3
-
+        //Task 3
         int e = 12;
         if (e > 10) {
             System.out.println("больше 10");
