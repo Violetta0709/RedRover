@@ -3,19 +3,20 @@ package org.veta;
 public class HW4 {
     public static void main(String[] args) {
 
-        //Task 1
         System.out.println("Task 1");
         for (int i = 0; i <= 15; i++) {
             System.out.println(i);
         }
 
-        //Task 2
         System.out.println("Task 2");
         for (int i = 1; Math.pow(5, i) < 10000; i++) {
             System.out.println(Math.pow(5, i));
         }
 
-        //Task 3
+        for (int i = 5; i < 10000; i *= 5) {
+            System.out.println(i);
+        }
+
         System.out.println("Task 3");
 
         System.out.println("Option 1");
