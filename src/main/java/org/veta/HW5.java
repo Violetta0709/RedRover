@@ -42,16 +42,25 @@ public class HW5 {
             for (int b =1; b<10; b++) {
                 System.out.println(a+ " x " + b + " = " + (a*b));
             }
-        }*/
+        }
 
         for (int i = 10; i >= 0; i--) {
             for (int j = 0; j < i; j++) {
                 System.out.print(j + " ");
             }
             System.out.println();
-        }
+        }*/
 
-        //for (int i )
+        for (int i = 10; i >= 0; i--) {
+            for (int j = 10; j > i; j--) {
+                System.out.print("  ");
+            }
+
+            for (int j = 0; j < i; j++) {
+                System.out.print(j + " ");
+            }
+            System.out.println();
+        }
 
     }
     /*int[] arr2 = new int[]{1, 2, 3, 4, 5, 6, 7};
