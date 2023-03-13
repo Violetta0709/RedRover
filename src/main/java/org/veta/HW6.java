@@ -11,7 +11,7 @@ public class HW6 {
         }
         System.out.println(sum);
 
-        int min = array1[0];
+        int min = Integer.MAX_VALUE;
         for (int i = 0; i < array1.length; i++) {
             if (min > array1[i]) {
                 min = array1[i];
@@ -19,7 +19,7 @@ public class HW6 {
         }
         System.out.println(min);
 
-        int max = array1[0];
+        int max = Integer.MIN_VALUE;
         for (int i = 0; i < array1.length; i++) {
             if (max < array1[i]) {
                 max = array1[i];
@@ -50,7 +50,7 @@ public class HW6 {
         }
         System.out.println(sum2);
 
-        int max1 = array2[0][0];
+        int max1 = Integer.MIN_VALUE;
         for (int i = 0; i < array2.length; i++) {
             for (int j = 0; j < array2[i].length; j++) {
                 if (max1 < array2[i][j]) {
@@ -60,7 +60,7 @@ public class HW6 {
         }
         System.out.println(max1);
 
-        int min1 = array2[0][0];
+        int min1 = Integer.MAX_VALUE;
         for (int i = 0; i < array2.length; i++) {
             for (int j = 0; j < array2[i].length; j++) {
                 if (min1 > array2[i][j]) {
